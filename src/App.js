@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      It's work!
+      work!
       <button onClick={onClose}>Click me</button>
     </div>
   );
