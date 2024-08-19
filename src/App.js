@@ -41,20 +41,20 @@ function App() {
         </div>
       </main>
       <div className='navbar'>
-        <a href='/scam' className='navbar__btn'>
-          <svg></svg>
-        </a>
-        <a href='/history' className='navbar__btn'>
-          <svg></svg>
-        </a>
-        <a href='/top' className='navbar__btn'>
-          <svg></svg>
-        </a>
-        <a href='/shop' className='navbar__btn'>
-          <svg></svg>
+        <a href='/' className='navbar__btn'>
+          <span>Home</span>
         </a>
         <a href='/casino' className='navbar__btn'>
-          <svg></svg>
+          <span>Casino</span>
+        <a href='/history' className='navbar__btn'>
+          <span>History</span>
+        </a>
+        <a href='/top' className='navbar__btn'>
+          <span>Top</span>
+        </a>
+        <a href='/shop' className='navbar__btn'>
+          <span>Shop</span>
+        </a>
         </a>
       </div>
     </div>
